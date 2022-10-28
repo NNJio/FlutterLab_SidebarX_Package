@@ -39,6 +39,8 @@ dependencies:
   sidebarx: ^0.14.0
   flutter_sidebar: ^0.3.1
   collapsible_sidebar: ^2.0.3
+  sidebar_bigeagle: ^0.2.2+1
+  flutter_admin_scaffold: ^1.1.2
 
 dev_dependencies:
   flutter_test:
