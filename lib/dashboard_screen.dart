@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
 import 'home_screen.dart';
-import 'main.dart';
 
+class DashboardPage extends StatelessWidget {
+  const DashboardPage({super.key});
 
-class SecondLevelItem1Page extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MyScaffold(
-      route: '/secondLevelItem1',
+      route: '/',
       body: Container(
         alignment: Alignment.topLeft,
         padding: const EdgeInsets.all(10),
-        child: Text(
-          'Second Level Item 1',
+        child: const Text(
+          'Dashboard',
           style: TextStyle(
             fontWeight: FontWeight.w700,
             fontSize: 36,
